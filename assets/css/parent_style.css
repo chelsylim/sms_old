@@ -1,0 +1,187 @@
+.parent_attachment ul li img{
+    padding:0;
+    width:150px;
+    object-fit: cover;
+}
+.parent_sidebar_child{
+    box-shadow: 0 0 7px #888888;
+    margin-bottom: 20px;
+}
+.parent_dashboard_child{
+    padding:10px 0;
+}
+.parent_dashboard_top_tile h3{
+    margin-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.parent_dashboard_top_tile .message_top_tile{
+    border-bottom: 3px lightgreen solid;
+}
+.parent_dashboard_top_tile .invoice_top_tile{
+    border-bottom: 3px lightcoral solid;
+}
+.parent_dashboard_top_tile .announcement_top_tile{
+    border-bottom: 3px lightskyblue solid;
+}
+.pointer-mouse{
+    cursor: pointer;
+}
+.parent_report_coursename{
+    /*color: #2dbbe8;*/
+    text-align: center;
+    font-size: 15px;
+}
+.parent_report_gradeDropdown{
+    float: right;
+    margin: 10px 0;
+}
+.dropdown-menu-content{
+    min-width: 95px;
+}
+.parent .x_title h2{
+    overflow: visible;
+}
+.offline .title,.offline .btn, .offline .btn-success:active:hover{
+    background: #2dbbe8;
+}
+.offline .buttonForm, .online .buttonForm{
+    font-size: 25px;
+}
+.offline .btn, .offline .btn-success:active:hover{
+    border: 1px solid #2dbbe8;
+}
+.online .title,.online .btn, .online .btn-success:active:hover{
+    background: rgba(243,156,18,.88);
+}
+.online input{
+    width:100%;
+    padding: 3vw 0px;
+}
+.pricing .title{
+    height: 85px;
+}
+.pricing .title h1 {
+    margin: 5px;
+}
+.bank-transfer-section{
+    border-bottom: 1px solid #ddd;
+}
+.bank-transfer-section:last-child{
+    border-bottom: 0;
+}
+.payment-status .row{
+    margin-top: 15px;
+}
+.payment-status .price{
+    color: rgba(243,156,18,.88);
+}
+.payment-icon{
+    text-align: center;
+}
+.payment-icon img{
+    width: 15%;
+}
+.pricing_features{
+    min-height: 95px;
+}
+.due-date{
+    color: red;
+    font-weight:bold;
+}
+.parent_date{
+    background-color: transparent !important;
+}
+.paypal{
+    text-align: center;
+}
+.inbox_title_left{
+    width: 44% !important;
+}
+
+.inbox .inbox-menu ul {
+    margin-top: 30px;
+    padding: 0;
+    list-style: none
+}
+
+.inbox .inbox-menu ul li {
+    height: 30px;
+    padding: 5px 15px;
+    position: relative
+}
+
+.inbox .inbox-menu ul li:hover,
+.inbox .inbox-menu ul li.active {
+    background: #e4e5e6
+}
+
+.inbox .inbox-menu ul li.title {
+    margin: 20px 0 -5px 0;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #d1d4d7
+}
+
+.inbox .inbox-menu ul li.title:hover {
+    background: 0 0
+}
+
+.inbox .inbox-menu ul li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #3d3f42
+}
+
+.inbox .inbox-menu ul li a i {
+    margin-right: 10px
+}
+
+.inbox .inbox-menu ul li a .label {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    display: block;
+    min-width: 14px;
+    height: 14px;
+    padding: 2px
+}
+
+.inbox-date, .inbox-name, .inbox-subjects, .inbox-attachment{
+    float: left;
+    background-color: transparent;
+}
+.inbox-name{
+    width:18%;
+}
+.inbox-attachment{
+    width: 2%;
+}
+.transparent{
+    color: transparent;
+}
+thead .inbox-subjects{
+    padding-left: 2.5%;
+}
+.inbox-subjects{
+    width: 70%;
+    height:18px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.inbox-subjects small{
+    color: silver;
+    font-weight: lighter;
+    font-size: small;
+}
+.inbox-date{
+    width:10%;
+    text-align: right;
+}
+.inbox-read {
+    background-color: #f6f6f6;
+}
+.inbox-unread .inbox-subjects, .inbox-unread .inbox-name, .inbox-unread .inbox-date{
+    font-weight:bolder;
+}
